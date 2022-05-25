@@ -1,0 +1,40 @@
+.outerBox {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(218, 98, 192);
+}
+.innerBox {
+  width: 480px;
+  height: fit-content;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 15px;
+}
+.signup-footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.signup-footer p {
+  text-align: center;
+  font-size: 1rem;
+  color: red;
+  font-weight: bold;
+  padding: 8px;
+}
+.signup-footer b {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 8px;
+}
+.signup-footer span a {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 8px;
+  text-decoration: none;
+}
